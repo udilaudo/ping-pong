@@ -2,24 +2,17 @@
     "players": [
         {
             "name": "Umberto",
-            "rating": 1120,
-            "games": 13,
-            "wins": 11,
+            "rating": 1141,
+            "games": 15,
+            "wins": 13,
             "losses": 2
         },
         {
-            "name": "Pearson",
+            "name": "Nicholas",
             "rating": 1033,
             "games": 2,
             "wins": 2,
             "losses": 0
-        },
-        {
-            "name": "Giacomino",
-            "rating": 1013,
-            "games": 3,
-            "wins": 2,
-            "losses": 1
         },
         {
             "name": "Scavide",
@@ -55,6 +48,13 @@
             "games": 0,
             "wins": 0,
             "losses": 0
+        },
+        {
+            "name": "Giacomino",
+            "rating": 992,
+            "games": 5,
+            "wins": 2,
+            "losses": 3
         },
         {
             "name": "Giorgia",

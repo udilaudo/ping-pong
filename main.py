@@ -14,6 +14,8 @@ def update_data(player1: str = "Umberto", player2: str = "Paolo", score: int = 1
     # Aggiorna l'elo
     get_new_elo(data, player1, player2, score)
 
+    print(f"{player1} vs {player2}\nVittoria di {player1}\nElo aggiornati:\n{player1}: {data['players'][0]['rating']}\n{player2}: {data['players'][1]['rating']}")
+
     # sorta il dizionario
     data['players'] = sorted(data['players'], key=lambda x: x['rating'], reverse=True)
 
