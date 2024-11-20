@@ -2,9 +2,9 @@
     "players": [
         {
             "name": "Umberto",
-            "rating": 1141,
-            "games": 15,
-            "wins": 13,
+            "rating": 1151,
+            "games": 16,
+            "wins": 14,
             "losses": 2
         },
         {
@@ -50,18 +50,18 @@
             "losses": 0
         },
         {
-            "name": "Giacomino",
-            "rating": 992,
-            "games": 5,
-            "wins": 2,
-            "losses": 3
-        },
-        {
             "name": "Giorgia",
             "rating": 984,
             "games": 1,
             "wins": 0,
             "losses": 1
+        },
+        {
+            "name": "Giacomino",
+            "rating": 982,
+            "games": 6,
+            "wins": 2,
+            "losses": 4
         },
         {
             "name": "Mec",

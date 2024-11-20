@@ -38,6 +38,7 @@ def update_data(player1: str = "Umberto", player2: str = "Paolo", score: int = 1
     plt.xticks(rotation=45)
     plt.ylabel('Rating')
     plt.title('Elo rating')
+    plt.grid()
     plt.savefig('./plots/rating.png')
     plt.close()
 
@@ -47,6 +48,7 @@ def update_data(player1: str = "Umberto", player2: str = "Paolo", score: int = 1
     plt.xticks(rotation=45)
     plt.ylabel('Win rate')
     plt.title('Win rate')
+    plt.grid()
     plt.savefig('./plots/win_rate.png')
     plt.close()
 

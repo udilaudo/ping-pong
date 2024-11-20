@@ -4,6 +4,7 @@ ping-pong telegram bot with Elo score
 
 # Esecuzione
 `main.py` per lanciare il codice
+
 `tele.py` per lanciare il bot
 
 ## Sintassi:
