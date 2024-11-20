@@ -1,0 +1,88 @@
+{
+    "players": [
+        {
+            "name": "Umberto",
+            "rating": 1120,
+            "games": 13,
+            "wins": 11,
+            "losses": 2
+        },
+        {
+            "name": "Pearson",
+            "rating": 1033,
+            "games": 2,
+            "wins": 2,
+            "losses": 0
+        },
+        {
+            "name": "Giacomino",
+            "rating": 1013,
+            "games": 3,
+            "wins": 2,
+            "losses": 1
+        },
+        {
+            "name": "Scavide",
+            "rating": 1012,
+            "games": 5,
+            "wins": 3,
+            "losses": 2
+        },
+        {
+            "name": "Paolo",
+            "rating": 1007,
+            "games": 13,
+            "wins": 7,
+            "losses": 6
+        },
+        {
+            "name": "Tomba",
+            "rating": 1004,
+            "games": 2,
+            "wins": 1,
+            "losses": 1
+        },
+        {
+            "name": "Santacat",
+            "rating": 1000,
+            "games": 0,
+            "wins": 0,
+            "losses": 0
+        },
+        {
+            "name": "Lollo",
+            "rating": 1000,
+            "games": 0,
+            "wins": 0,
+            "losses": 0
+        },
+        {
+            "name": "Giorgia",
+            "rating": 984,
+            "games": 1,
+            "wins": 0,
+            "losses": 1
+        },
+        {
+            "name": "Mec",
+            "rating": 973,
+            "games": 2,
+            "wins": 0,
+            "losses": 2
+        },
+        {
+            "name": "Nic",
+            "rating": 956,
+            "games": 3,
+            "wins": 0,
+            "losses": 3
+        },
+        {
+            "name": "Mic",
+            "rating": 898,
+            "games": 10,
+            "wins": 1,
+            "losses": 9
+        }
+    ]
+}
