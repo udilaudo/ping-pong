@@ -11,10 +11,15 @@ def update_data(player1: str = "Umberto", player2: str = "Paolo", score: int = 1
     with open('players.json') as f:
         data = json.load(f)
 
+    # Definisci il K-factor
+    K = 32
+
     # Aggiorna l'elo
-    get_new_elo(data, player1, player2, score)
+    get_new_elo(data, player1, player2, score, K)
 
     print(f"{player1} vs {player2}\nVittoria di {player1}\nElo aggiornati:\n{player1}: {data['players'][0]['rating']}\n{player2}: {data['players'][1]['rating']}")
+
+    # ------------------------ Save data ------------------------
 
     # sorta il dizionario
     data['players'] = sorted(data['players'], key=lambda x: x['rating'], reverse=True)
@@ -31,6 +36,18 @@ def update_data(player1: str = "Umberto", player2: str = "Paolo", score: int = 1
 
     # salva il dataframe
     df.to_csv('./results/rating.csv', index=False)
+
+    # ------------------------ Save new match ------------------------
+
+    # Aggiungi la partita al dataframe df_matches
+    df_matches = pd.read_csv('./results/matches.csv')
+
+    new_match = pd.DataFrame([{'Winner': player1, 'Loser': player2, 'Date': pd.Timestamp.now().date()}])
+    df_matches = pd.concat([df_matches, new_match], ignore_index=True)
+
+    df_matches.to_csv('./results/matches.csv', index=False)
+
+    # ------------------------ Plots ------------------------
 
     # Plotta gli elo
     plt.figure(figsize=(15,10))
