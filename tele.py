@@ -2,13 +2,15 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 from main import update_data
 import json
+from dotenv import load_dotenv
+import os
 
 
-# Carica il token dal file di configurazione
-with open("config.json", "r") as f:
-    config = json.load(f)
+# Carica il token dal file .env
+load_dotenv()
 
-TOKEN = config["TOKEN"]
+TOKEN = os.getenv("TOKEN_PING_PONG")
+print(TOKEN)
 
 if not TOKEN:
     raise ValueError("Il token non è stato trovato nel file di configurazione!")

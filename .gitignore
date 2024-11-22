@@ -1,4 +1,5 @@
 config.json
 *.ipynb
+.env
 
 __pycache__/

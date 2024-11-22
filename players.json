@@ -2,9 +2,9 @@
     "players": [
         {
             "name": "Umberto",
-            "rating": 1193,
-            "games": 21,
-            "wins": 19,
+            "rating": 1200,
+            "games": 22,
+            "wins": 20,
             "losses": 2
         },
         {
@@ -15,7 +15,7 @@
             "losses": 0
         },
         {
-            "name": "Scavide",
+            "name": "Davide",
             "rating": 1012,
             "games": 5,
             "wins": 3,
@@ -29,7 +29,7 @@
             "losses": 1
         },
         {
-            "name": "Santacat",
+            "name": "Gio",
             "rating": 1000,
             "games": 0,
             "wins": 0,
@@ -51,10 +51,10 @@
         },
         {
             "name": "Giacomino",
-            "rating": 982,
-            "games": 6,
+            "rating": 975,
+            "games": 7,
             "wins": 2,
-            "losses": 4
+            "losses": 5
         },
         {
             "name": "Mec",
